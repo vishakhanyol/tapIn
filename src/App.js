@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import InterviewExperiencesPage from './components/InterviewExperience';
-import StudyGroupsPage from './components/StudyGroup';
-import ResumeScorePage from './components/ResumeScore';
+import StudyGroup from './components/StudyGroup';
+import ResumeScore from './components/ResumeScore';
 
 function App() {
   return (
@@ -30,8 +30,8 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/interview-experiences" element={<InterviewExperiencesPage />} />
-            <Route path="/study-groups" element={<StudyGroupsPage />} />
-            <Route path="/resume-score" element={<ResumeScorePage />} />
+            <Route path="/study-groups" element={<StudyGroup />} />
+            <Route path="/resume-score" element={<ResumeScore />} />
           </Routes>
         </main>
       </div>
