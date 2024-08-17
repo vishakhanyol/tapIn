@@ -6,7 +6,7 @@ const HomePage = () => {
       <main className="flex w-full justify-between items-start p-10">
         {/* Left Side: Heading */}
         <div className="w-1/2 text-left">
-          <h1 className="text-9xl font-bold">
+          <h1 className="text-8xl font-bold">
             Connect, Collaborate, and Succeed.
           </h1>
         </div>
