@@ -2,7 +2,7 @@ import React from "react";
 
 const ResumeScore = () => {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col items-center">
+    <div className="bg-black text-white min-h-screen flex flex-col justify-between">
       {/* Main Section */}
       <main className="flex flex-col items-center justify-center text-center w-full p-10">
         <h1 className="text-6xl font-bold mt-10">Perfect Your Pitch!</h1>
@@ -21,8 +21,10 @@ const ResumeScore = () => {
           </div>
         </div>
       </main>
+
+      {/* Footer Section */}
       <footer className="w-full bg-gray-900 text-white py-4 flex justify-center">
-        <p>&copy; 2024 tapIn. All Rights Reserved.</p>
+        <p>&copy; 2024 Tapln. All Rights Reserved.</p>
       </footer>
     </div>
   );

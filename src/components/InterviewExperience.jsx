@@ -63,7 +63,7 @@ const InterviewExperience = () => {
   ];
 
   return (
-    <div className="bg-black min-h-screen flex flex-col items-center text-white">
+    <div className="bg-black min-h-screen flex flex-col justify-between text-white">
       <div className="flex flex-col items-center text-center">
         <div className="container mx-auto px-6 py-12">
           <div className="flex flex-col md:flex-row justify-start items-center">
@@ -139,6 +139,13 @@ const InterviewExperience = () => {
           />
         </div>
       </div>
+
+      {/* Footer Section */}
+      <footer className="w-full bg-gray-900 text-white py-4 mt-8">
+        <div className="flex justify-center">
+          <p>&copy; 2024 Tapln. All Rights Reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 };

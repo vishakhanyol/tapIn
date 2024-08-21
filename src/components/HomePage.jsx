@@ -2,8 +2,9 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col items-center">
-      <main className="flex w-full justify-between items-start p-10">
+    <div className="bg-black text-white min-h-screen flex flex-col justify-between">
+      {/* Main Content */}
+      <main className="flex-grow flex w-full justify-between items-start p-10">
         {/* Left Side: Heading */}
         <div className="w-1/2 text-left">
           <h1 className="text-8xl font-bold">
@@ -82,8 +83,12 @@ const HomePage = () => {
           </h2>
         </div>
       </section>
-      <footer className="w-full bg-gray-900 text-white py-4 flex justify-center">
-        <p>&copy; 2024 tapIn. All Rights Reserved.</p>
+
+      {/* Footer Section */}
+      <footer className="w-full bg-gray-900 text-white py-4 mt-8">
+        <div className="flex justify-center">
+          <p>&copy; 2024 Tapln. All Rights Reserved.</p>
+        </div>
       </footer>
     </div>
   );
