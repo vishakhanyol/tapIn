@@ -21,6 +21,9 @@ const ResumeScore = () => {
           </div>
         </div>
       </main>
+      <footer className="w-full bg-gray-900 text-white py-4 flex justify-center">
+        <p>&copy; 2024 tapIn. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 };
